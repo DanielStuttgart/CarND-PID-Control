@@ -9,7 +9,10 @@ I found following parameters to work quite good:
 * K_d = 2.8
 * K_i = 0.0001
 
-Following video shows the result with these gain parameters: 
+Following videos show the result with these gain parameters: 
+![](/PID_01.gif)
+![](/PID_02.gif)
+![](/PID_03.gif)
 
 The initialization of the PID controller is shown in following snippet: 
 ```c++
