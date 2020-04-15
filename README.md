@@ -1,8 +1,6 @@
 # CarND-PID-Control
 Part of Nanodegree Self-Driving Car Engineer
 
-## Project overview
-
 ## Tasks
 ### Tuning PID parameters
 In order to find initial parameters for PID control, I set the throttle to a low value (e.g. 0.1). For detetermining the best parameter values I first adjusted the P-parameter (by setting the other control gains to 0). Then I added the D-control part and last the I-part was added. 
