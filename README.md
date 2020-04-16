@@ -13,6 +13,9 @@ If the **proportional** part of the controller is chosen too high, the car start
 The **derivative** term is used for predicting the system behavior and thus improves the stability of the system. 
 With the proportional and derivative terms, a permanent error / systematic bias can occur.
 The **integral** term is used for compensating this systematic bias. If chosen too high, this integral term may overshoot.
+Following animation taken from [Wikipedia](https://en.wikipedia.org/wiki/PID_controller) illustrates the influence of the controller parts.
+
+![](PID_Compensation_Animated.gif)
 
 Following videos show the result with these gain parameters: 
 
