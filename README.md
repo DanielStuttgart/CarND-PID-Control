@@ -8,6 +8,10 @@ I found following parameters to work quite good:
 * K_p = 0.12
 * K_d = 2.8
 * K_i = 0.0001
+If the *proportional* part of the controller is chosen too high, the car starts to swerve and gets unstable. 
+The *derivative* term is used for predicting the system behavior and thus improves the stability of the system. 
+With the proportional and derivative terms, a permanent error / systematic bias can occur.
+The *integral* term is used for compensating this systematic bias. If chosen too high, this integral term may overshoot.
 
 Following videos show the result with these gain parameters: 
 
