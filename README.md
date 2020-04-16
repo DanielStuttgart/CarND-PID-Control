@@ -9,6 +9,7 @@ I found following parameters to work quite good:
 * K_d = 2.8
 * K_i = 0.0001
 
+I tried to optimize these parameters with the implemented twiddle algorithm, but could not find parameters better than those which were manually chosen.
 If the **proportional** part of the controller is chosen too high, the car starts to swerve and gets unstable. 
 The **derivative** term is used for predicting the system behavior and thus improves the stability of the system. 
 With the proportional and derivative terms, a permanent error / systematic bias can occur.
